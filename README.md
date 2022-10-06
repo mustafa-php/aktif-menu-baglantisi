@@ -1,2 +1,2 @@
-# aktif-menu-baglantisi
-Php ve Jquery ile aktif menü bağlantısını nasıl anlaşılır ?
+# Aktif Menü Bağlantısı
+Php ve Jquery ile switch yapısını kullanarak aktif menü bağlantısını yapımı
