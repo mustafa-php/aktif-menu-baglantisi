@@ -57,7 +57,7 @@
     <?php
     $url = $_SERVER['REQUEST_URI']; //Domain adresinden sonra gelen url uzantısını alıyoruz "sayfa/dosyalar/dosya.php" gibi
     $sayfalar = explode("/", $url); //explode methodu ile $url degişkenimizi ayrıştırıyoruz ve "/" işaretinden önce gelenleri array olarak sıralıyoruz
-    $sayfa = $sayfalar[1]; //2. array degerimizi alıyoruz "ilk dosyamızı"
+    $sayfa = $sayfalar[1]; //2. array degerimizi alıyoruz "ilk klasörü"
     switch ($sayfa) { // switch hedef parametresi
         case "": //parametre ile eşleşmesi istenen değer
             $sonuc = '$(".anasayfa").addClass("aktif");'; // eşleşme sonrası çalışması istenen koşul
